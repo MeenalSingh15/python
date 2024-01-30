@@ -1,4 +1,6 @@
-`print("hello")`
+```python
+print("hello")
+```
 
 
 how do i do this ?
