@@ -26,22 +26,24 @@ For example:
 'This is a string.'
 "12345"
 'Special characters: !@#$%^&*()'
+
 * list: List data type (ordered and mutable sequence).
-*tuple: Tuple data type (ordered and immutable sequence).
-*Mapping Type:
+* tuple: Tuple data type (ordered and immutable sequence).
+* Mapping Type:
+   *dict: Dictionary data type (unordered collection of key-value pairs).
 
-dict: Dictionary data type (unordered collection of key-value pairs).
-Set Types:
 
-set: Set data type (unordered collection of unique elements).
-frozenset: Immutable set.
-Boolean Type:
+* Set Types:
+   *set: Set data type (unordered collection of unique elements).
+   *frozenset: Immutable set.
 
-bool: Boolean data type (either True or False).
-None Type:
-
-None: Represents the absence of a value or a null value.
-These data types provide flexibility for storing and manipulating different kinds of data in Python. You can use type-specific functions and operators to perform operations on these data types. Additionally, Python is dynamically typed, meaning you don't need to explicitly declare the data type of a variable; it is inferred at runtime.
+*Boolean Type:
+  *bool: Boolean data type (either True or False).
+*None Type:
+  *None: Represents the absence of a value or a null value.
+   These data types give python flexibility to work on so many types of data and manipulate so many types of data.
+   You can use type-specific functions and operators i.e functions and operators designed for a specific type of data  to perform operations on these data types. 
+   Python is dynamically typed, meaning you don't need to explicitly declare the data type of a variable it is inferred at runtime.
 
 Examples:
 ```python
