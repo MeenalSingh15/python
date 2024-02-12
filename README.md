@@ -1,16 +1,19 @@
-## Data TRypes in Python 
+# What is python and why is it necessary for Data Science ?
+
+
+# Data Types in Python 
 
 Python supports several built-in data types that are commonly used in programming. 
 The main data types in Python:
 
-# Numeric Types:
+## Numeric Types:
 * int: Integer data type i.e number is positive or negative but never a fraction or decimal. 
 (e.g., 36, -36).
 
 * float: Floating-point data type is a data type that includes real number that are both whole numbers or fractions .
 (e.g., 3.14, -0.5).
 
-# Sequence Types:
+## Sequence Types:
 
 * str: String data type
 Strings are basically any sequences of characters, which can include letters,symbols,numbers and whitespaces.
@@ -33,10 +36,10 @@ For example:
    + set: Set data type (unordered collection of unique elements).
    + frozenset: Immutable set.
 
-# Boolean Type:
+## Boolean Type:
   + bool: Boolean data type (either True or False).
 
-# None Type:
+## None Type:
  + None: Represents the absence of a value or a null value.
    These data types give python flexibility to work on so many types of data and manipulate so many types of data.
    You can use type-specific functions and operators i.e functions and operators designed for a specific type of data  to perform operations on these data types. 
@@ -65,3 +68,35 @@ bool_var = True
 # None type
 none_var = None
 ```
+## *Escape characters 
+These are special characters used in strings that maybe printable or non printable 
+- \n: Newline character. It moves the cursor to the beginning of the next line i.e it adds  a line whereever used
+
+  ```python
+  stringsplit='This String \n has been split \n inot\n multiple lines.'
+  print(stringsplit)
+  ```
+- \t: Tab character. It moves the cursor to the next tab stop i.e. it adds a space.
+```python
+  stringspace='This\tString\t has\t been\tspaced\tequally.'
+print(stringspace)
+  ```
+
+- \\: Backslash character. It represents a single backslash.
+  ```python
+  print("This is a backslash: \\")
+  ```
+- \': Single quote character. It represents a single quote within a string.
+  ```python
+  print("This is a single quote: \'")
+  ```
+- \": Double quote character. It represents a double quote within a string.
+   ```python
+  print("This is a double quote: \"")
+  ```
+- \b: Backspace character. It moves the cursor one position backward.
+ ```python
+  print("Backspace: a\bo")
+  ```
+
+
