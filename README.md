@@ -86,17 +86,31 @@ print(stringspace)
   ```python
   print("This is a backslash: \\")
   ```
+  ```output:
+ This is a backslash: \
+ ```
+
 - \': Single quote character. It represents a single quote within a string.
   ```python
   print("This is a single quote: \'")
   ```
+```output:
+This is a single quote: '
+ ```
 - \": Double quote character. It represents a double quote within a string.
    ```python
   print("This is a double quote: \"")
   ```
+   ```output:
+   This is a double quote: ""
+   ```
+   
 - \b: Backspace character. It moves the cursor one position backward.
  ```python
   print("Backspace: a\bo")
   ```
+```output:
+ Backspace: o
+   ```
 
 
