@@ -80,22 +80,22 @@ These are special characters used in strings that maybe printable or non printab
 ```python
   stringspace='This\tString\t has\t been\tspaced\tequally.'
   print(stringspace)
-  ```
+```
 
 - \\: Backslash character. It represents a single backslash.
   ```python
-  print("This is a backslash: \\")
+   print("This is a backslash: \\")
   ```
   ```output:output
- This is a backslash: \
- ```
+     This is a backslash: \
+  ```
 
 - \': Single quote character. It represents a single quote within a string.
   ```python
-  print("This is a single quote: \'")
+     print("This is a single quote: \'")
   ```
 ```output:
-This is a single quote: '
+   This is a single quote: '
  ```
 - \": Double quote character. It represents a double quote within a string.
    ```python
