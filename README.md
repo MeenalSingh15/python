@@ -76,15 +76,24 @@ These are special characters used in strings that maybe printable or non printab
   stringsplit='This String \n has been split \n inot\n multiple lines.'
   print(stringsplit)
   ```
+   ```output:output
+     This String 
+ has been split 
+ inot
+ multiple lines.
+  ```
 - \t: Tab character. It moves the cursor to the next tab stop i.e. it adds a space.
 ```python
-  stringspace='This\tString\t has\t been\tspaced\tequally.'
+  stringspace='This\tString\thas\tbeen\tspaced\tequally.'
   print(stringspace)
 ```
+ ```output:output
+     This	String	has	been	spaced	equally.
+  ```
 
 - \\: Backslash character. It represents a single backslash.
   ```python
-   print("This is a backslash: \\")
+    print("This is a backslash: \\")
   ```
   ```output:output
      This is a backslash: \
