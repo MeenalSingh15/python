@@ -1,13 +1,4 @@
-```python
-print("hello")
-```
-
-
-
-```python
-def hello_world():
-    print("Hello, World!")
-```
+## Data TRypes in Python 
 
 Python supports several built-in data types that are commonly used in programming. 
 The main data types in Python:
