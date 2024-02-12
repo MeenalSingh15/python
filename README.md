@@ -79,14 +79,14 @@ These are special characters used in strings that maybe printable or non printab
 - \t: Tab character. It moves the cursor to the next tab stop i.e. it adds a space.
 ```python
   stringspace='This\tString\t has\t been\tspaced\tequally.'
-print(stringspace)
+  print(stringspace)
   ```
 
 - \\: Backslash character. It represents a single backslash.
   ```python
   print("This is a backslash: \\")
   ```
-  ```output:
+  ```output:output
  This is a backslash: \
  ```
 
