@@ -12,15 +12,19 @@ def hello_world():
 Python supports several built-in data types that are commonly used in programming. 
 The main data types in Python:
 
-# \*Numeric Types:\*
+# Numeric Types:
 *int: Integer data type i.e number is positive or negative but never a fraction or decimal. 
 (e.g., 36, -36).
+
 *float: Floating-point data type is a data type that includes real number that are both whole numbers or fractions .
 (e.g., 3.14, -0.5).
 
 # **\*\*Sequence Types:\*\***
+
 * str: String data type
-Strings are basically any sequences of characters, which can include letters,symbols,numbers and whitespaces.In pyhton and most programming languages, strings are enclosed in quotation marks (either single ' or double "). 
+Strings are basically any sequences of characters, which can include letters,symbols,numbers and whitespaces.
+In python and most programming languages, strings are enclosed in quotation marks (either single ' or double "). 
+
 For example:
 "Hello, world!"
 'This is a string.'
@@ -28,10 +32,11 @@ For example:
 'Special characters: !@#$%^&*()'
 
 * list: List data type (ordered and mutable sequence).
+
 * tuple: Tuple data type (ordered and immutable sequence).
+
 * Mapping Type:
    *dict: Dictionary data type (unordered collection of key-value pairs).
-
 
 * Set Types:
    *set: Set data type (unordered collection of unique elements).
@@ -39,6 +44,7 @@ For example:
 
 *Boolean Type:
   *bool: Boolean data type (either True or False).
+
 *None Type:
   *None: Represents the absence of a value or a null value.
    These data types give python flexibility to work on so many types of data and manipulate so many types of data.
