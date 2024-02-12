@@ -12,7 +12,7 @@ def hello_world():
 Python supports several built-in data types that are commonly used in programming. 
 The main data types in Python:
 
-# **\*\*Numeric Types:\*\***
+# \*Numeric Types:\*
 *int: Integer data type i.e number is positive or negative but never a fraction or decimal. 
 (e.g., 36, -36).
 *float: Floating-point data type is a data type that includes real number that are both whole numbers or fractions .
