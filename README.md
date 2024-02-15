@@ -1,4 +1,6 @@
 # What is python and why is it necessary for Data Science ?
+Everything is object and it is underr a particular class
+
 
 
 # Data Types in Python 
