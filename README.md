@@ -1,8 +1,20 @@
 # What is python and why is it necessary for Data Science ?
-Everything is object and it is underr a particular class
+Everything is object and it is under a particular class.
+Python is high level interpreted programming language that is dynamically typed that is known for its simplicity, readibility and ease of use.
+It was created by Guido van Rossam in late 1980s and is one of the most used pragramming language of the world .
+It is interpreted language which basically means the code is executed directly withou compilation need which makes it easier to use and detect bugs in addition the script can be used on  multiple platforms withput having to worry about platform specific issues.
+It is used in many fields like data science , web development, machine learning and scientific computing.
+## IDEs
 
 
-
+# Variable 
+Variable in python are containers that store data that can belong to any data type available in python.
+to assign values in any variable we use '=' operator.
+```python
+x = 10 #x is a variable that holds a int value  10
+s ="hi" #s is a variable that holds a string value'hi'
+```
+Variables can store any data type and can also change data types during runtime using Typecasting
 # Data Types in Python 
 
 Python supports several built-in data types that are commonly used in programming. 
@@ -123,5 +135,15 @@ These are special characters used in strings that maybe printable or non printab
 ```output:
  Backspace: o
    ```
+# Operators
+
+
+
+
+
+
+
+
+
 
 
