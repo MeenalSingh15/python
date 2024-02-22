@@ -143,12 +143,15 @@ These are conditional statements
 keyword if is followed by a condition if the condition is true the next code is interpreted otherwise we move to else statement.
 elif is another keyword used when we have to check two conditions and else is basically default code to be read if no conditions are met .
  let us see few examples :
- ```python
-''''Write a Python program that takes a user's input for their current salary and their performance rating (which can be "excellent", "good", "average", or "poor"), and returns their new salary based on the following conditions:
+ 
+''Write a Python program that takes a user's input for their current salary and their performance rating (which can be "excellent", "good", "average", or "poor"), and returns their new salary based on the following conditions:
 
-If the performance rating is "excellent", the user's new salary should be 10% more than their current salary. If the performance rating is "good", the user's new salary should be 5% more than their current salary. If the performance rating is "average", the user's new salary should be the same as their current salary. If the performance rating is "poor", the user's new salary should be 2% less than their current salary. else "Invalid performance rating."
+If the performance rating is "excellent", the user's new salary should be 10% more than their current salary. If the performance rating is "good", 
+the user's new salary should be 5% more than their current salary. If the performance rating is "average", the user's new salary should be the same as their current salary. 
+If the performance rating is "poor", the user's new salary should be 2% less than their current salary. else "Invalid performance rating."
 
-'''
+''
+```python
 current_salary = int(input("current:"))
 rating= input("rating:")
 
@@ -158,7 +161,10 @@ elif rating =="good":
   new == current_salary*1.05
 
 print(new) ```
-``` output:
+
+
+``` python
+output:
 current:88
 rating:good
 1```
