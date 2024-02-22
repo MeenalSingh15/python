@@ -137,6 +137,14 @@ These are special characters used in strings that maybe printable or non printab
    ```
 # Operators
 
+# loops 
+# if-else  if-elif-else
+These are conditional statements 
+keyword if is followed by a condition if the condition is true the next code is interpreted otherwise we move to else statement.
+elif is another keyword used when we have to check two conditions and else is basically default code to be read if no conditions are met .
+ let us see few examples :
+ 
+
 
 
 
