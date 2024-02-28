@@ -194,7 +194,26 @@ lists are mutable, meaning their elements can be changed after the list is creat
 Lists are created using square brackets '[]' and commas ',' to separate elements.
 ## list methods
  Lists in Python come with various built-in methods for manipulation, such as append(), extend(), insert(), remove(), pop(), index(), count(), sort(), and reverse(),etc
- 
+ # tuple
+ A tuple in Python is a data structure similar to a list, but it is immutable, meaning its elements cannot be changed after the tuple is created. Tuples are defined using parentheses () and commas , to separate elements. 
+Tuples are created using parentheses '()' and commas ','. These are accesed by indexing
+Unlike lists, tuples are immutable, which means you cannot change, add, or remove elements after the tuple is created.
+To create a single-element tuple, you need to include a trailing comma after the element, even though parentheses alone can create a tuple.
+ou can pack multiple values into a tuple and unpack them into individual variables.
+uples are often used when you want to store a collection of items that should not be changed, such as coordinates, configurations, or database records.
+
+Tuples are useful for situations where you want to ensure that the data remains constant and cannot be accidentally modified.
+```python
+my_tuple = (1, 2, 3, 4, 5)
+print(my_tuple[0])  # Output: 1
+print(my_tuple[2])  # Output: 3
+my_tuple[0] = 10  # This will raise a TypeError
+single_element_tuple = (42,)  # Single-element tuple
+coordinates = (3, 4)
+x, y = coordinates
 
 
+my_tuple.count(3)  # Returns the number of occurrences of 3 in the tuple
+my_tuple.index(4)  # Returns the index of the first occurrence of 4
+```
 
