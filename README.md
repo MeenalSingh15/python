@@ -189,7 +189,12 @@ print(type1(c)) #implicit conversion of data type to float
 <class 'float'>
 ```
 
-
+# list 
+lists are mutable, meaning their elements can be changed after the list is created.
+Lists are created using square brackets '[]' and commas ',' to separate elements.
+## list methods
+ Lists in Python come with various built-in methods for manipulation, such as append(), extend(), insert(), remove(), pop(), index(), count(), sort(), and reverse(),etc
+ 
 
 
 
